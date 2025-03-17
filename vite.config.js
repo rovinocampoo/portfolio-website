@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
   base: "/portfolio-website/",
   build: {
-    outDir: "dist",
-  },
+    outDir: 'dist', // Ensure correct output directory
+    assetsDir: 'assets', // Ensure assets go into a subdirectory
+  }
 })
