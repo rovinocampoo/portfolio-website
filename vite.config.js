@@ -9,5 +9,6 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Ensure correct output directory
     assetsDir: 'assets', // Ensure assets go into a subdirectory
+    emptyOutDir: true, // Clears old files before building
   }
 })
